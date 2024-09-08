@@ -3,6 +3,7 @@ import 'dart:io';
 //import 'package:chatbot_app/constant/const.env';
 import 'package:chatbot_app/constant/const.dart';
 import 'package:chatbot_app/pages/chat_page.dart';
+import 'package:chatbot_app/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home:ChatPage()
+      home:HomePage()
     );
   }
 }

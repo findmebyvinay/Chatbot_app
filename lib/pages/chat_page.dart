@@ -22,12 +22,12 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title:Text('ChatBot',
-        style: TextStyle(color: Colors.white),),
-        centerTitle: true,
-        backgroundColor:Colors.black
+        title:Text('Gemini',
       ),
-      backgroundColor: Colors.black45,
+        centerTitle: true,
+      
+      ),
+      backgroundColor:Colors.grey[200],
       body: DashChat(
         currentUser: currentUser,
          onSend: sendMessage,
